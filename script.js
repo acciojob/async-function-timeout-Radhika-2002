@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener("click", async ()=>{
 		return;
 	}
 	await delayFunction(delay);
-	document.getElementById("outputText").innerText=text;
+	document.getElementById("output").innerText=text;
 });
 function delayFuction(delay) {
 	return new Promise((resolve, reject)=>{
